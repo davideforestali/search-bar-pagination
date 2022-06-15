@@ -1,0 +1,48 @@
+.SearchBar {
+  background-color: #FFF;
+  padding: 1rem 0;
+}
+
+.inputGroup {
+  position: relative;
+  margin-bottom: .5rem;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  left: 1rem;
+  transform: translateY(-50%);
+}
+
+.input {
+  border-radius: 2rem;
+  padding: .5rem 1rem .5rem 2.5rem;
+  border: 1px solid #b5b5b5;
+  width: 100%;
+}
+
+.button {
+  background-color: green;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  color: #FFF;
+  width: 100%;
+}
+
+@media (min-width:769px) {
+  .inputGroup {
+    width: 70%;
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+
+  .form {
+    display: flex;
+  }
+
+  .button {
+    width: 30%;
+  }
+}

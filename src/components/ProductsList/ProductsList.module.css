@@ -1,0 +1,25 @@
+.ProductsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  background-color: #FFF;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin: 0 0 0.5rem;
+  color: green;
+}
+
+.price {
+  color: green;
+}
+
+.ProductsList p {
+  margin-bottom: 0;
+}

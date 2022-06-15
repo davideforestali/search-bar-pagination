@@ -1,0 +1,31 @@
+main {
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.network-error-msg {
+  padding: 1rem 2rem;
+  background-color: #ff5757;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  border-radius: 0.5rem;
+  color: #FFF;
+  border: 2px solid #dd0808;
+  z-index: 9;
+}
+
+.h1 {
+  font-size: 1.5rem;
+  color: green;
+}
